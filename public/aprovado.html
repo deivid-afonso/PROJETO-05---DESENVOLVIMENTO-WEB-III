@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aluno Aprovado | Projeto 05 DWIII</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="card">
+    <span class="badge badge-aprovado">{{SITUACAO}}</span>
+    <h1>Parabéns! Você foi aprovado(a).</h1>
+    <p>Sua média final atingiu o critério mínimo de aprovação (Média &ge; 6.0).</p>
+
+    <div class="notas-grid">
+      <div class="nota-box">
+        <span>Nota P1</span>
+        <strong id="valP1">{{P1}}</strong>
+      </div>
+      <div class="nota-box">
+        <span>Nota P2</span>
+        <strong id="valP2">{{P2}}</strong>
+      </div>
+      <div class="nota-box">
+        <span>Média Final</span>
+        <strong id="valMedia" style="color: #34d399;">{{MEDIA}}</strong>
+      </div>
+    </div>
+
+    <a href="/" class="btn">← Realizar Novo Cálculo</a>
+  </div>
+</body>
+</html>

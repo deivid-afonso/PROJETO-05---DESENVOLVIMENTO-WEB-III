@@ -1,0 +1,11 @@
+{
+  "name": "projeto-05-desenvolvimento-web-iii",
+  "version": "1.0.0",
+  "description": "Projeto 05 - Desenvolvimento Web III: Cálculo de média (P1 e P2) via URL em Node.js puro sem frameworks",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Deivid da Silva Afonso",
+  "license": "MIT"
+}
